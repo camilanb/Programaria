@@ -60,3 +60,21 @@ a{
     font-weight: 700;
 }
 
+.principal a{
+    color:white;
+    text-decoration: underline;
+    font-weight: normal
+}
+
+.principal{
+    background: #FF6CB5;
+    height: 40px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.principal li{
+    display: inline-block;
+    line-height: 2.5;
+    margin: 0 89px;
+}
