@@ -40,7 +40,7 @@ p{
 }
 
 section{
-    max-width: 60%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -77,4 +77,12 @@ a{
     display: inline-block;
     line-height: 2.5;
     margin: 0 89px;
+}
+
+@media {max-width: 1255px;
+
+}
+    .principal {
+       max-width: 70%; 
+    }
 }
