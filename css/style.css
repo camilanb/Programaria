@@ -78,6 +78,11 @@ a{
     margin: 0 89px;
 }
 
+.required:{
+    content: "*";
+    color: red;
+}
+
 
 button{
     background:#41f341;
@@ -90,12 +95,12 @@ button{
 @media (max-width: 1255px)
 {
 .principal{ max-width:80%;
-    display: inline
+    display: inline;
 }
 
 @media (max-width: 960px)
 {
 .principal{ max-width:80%;
-    display: inline
-    background-color: #FF6CB5;
+    display: inline;
+    background: #FF6CB5;
 }
