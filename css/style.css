@@ -92,3 +92,10 @@ button{
 .principal{ max-width:80%;
     display: inline
 }
+
+@media (max-width: 960px)
+{
+.principal{ max-width:80%;
+    display: inline
+    background-color: #FF6CB5;
+}
