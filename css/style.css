@@ -90,11 +90,5 @@ button{
 @media (max-width: 1255px)
 {
 .principal{ max-width:80%;
-
-}
-
-@media (max-width:960px)
-{
-    .principal{ max-width:80%;
-}
+    display: inline
 }

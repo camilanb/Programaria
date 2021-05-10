@@ -90,15 +90,28 @@
             </nav>
             <h4>Quer saber mais sobre outras mulheres que fizeram história na programação? Deixe seu e-mail:</h4>
             
+
+            
             <form> 
                 <label for="nome-usuaria">Nome:</label>
                 <input id="nome-usuaria" type="text">
 
                 <label for="email-usuaria">E-mail:</label>
                 <input id="email-usuaria" type="email">
-                <button>Enviar</button>
+                <button onclick="alert();">Enviar</button>
+
             </form>
             
+            <script>
+                function funcao1(){
+                if(document.getElementById("nome-usuaria").value != "" && document.getElementById("email-usuaria").value != "") {
+                alert("Seus dados foram recebidos com sucesso!")
+                }else{
+                alert("Por favor, preencha os dados para serem enviados")
+                }
+                }
+                </script>
+
         </body>
 
 </html>
