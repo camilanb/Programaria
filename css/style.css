@@ -78,12 +78,6 @@ a{
     margin: 0 89px;
 }
 
-.required:{
-    content: "*";
-    color: red;
-}
-
-
 button{
     background:#41f341;
     border: 1px solid transparent;
